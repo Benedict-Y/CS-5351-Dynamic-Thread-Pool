@@ -4,7 +4,7 @@ server:
 redis:
   sdk:
     config:
-      host: localhost
+      host: 192.168.1.108
       port: 16379
       pool-size: 10
       min-idle-size: 5
