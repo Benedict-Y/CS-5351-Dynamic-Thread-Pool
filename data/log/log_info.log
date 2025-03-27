@@ -1,0 +1,1298 @@
+25-03-28.03:48:46.222 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 35852 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:48:46.224 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:48:46.613 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:48:46.614 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:48:46.628 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.03:48:46.861 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.03:48:46.866 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.03:48:46.866 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:48:46.866 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:48:46.935 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:48:46.935 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 683 ms
+25-03-28.03:48:47.349 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:48:47.488 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:48:47.501 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:48:47.518 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.03:48:47.730 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:48:47.742 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8093"]
+25-03-28.03:48:47.749 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8093 (http) with context path ''
+25-03-28.03:48:47.758 [main            ] INFO  Application            - Started Application in 1.776 seconds (JVM running for 2.521)
+25-03-28.03:49:00.097 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":379,"queueType":"LinkedBlockingQueue","remainingCapacity":4621,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.03:49:00.100 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":379,"queueType":"LinkedBlockingQueue","remainingCapacity":4621,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:49:00.103 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.03:49:01.363 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 20060 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:49:01.365 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:49:01.693 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:49:01.694 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:49:01.703 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.03:49:01.887 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.03:49:01.891 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.03:49:01.891 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:49:01.891 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:49:01.937 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:49:01.937 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
+25-03-28.03:49:02.091 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:49:02.217 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:49:02.226 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:49:02.538 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:49:02.552 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.03:49:02.557 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.03:49:02.565 [main            ] INFO  Application            - Started Application in 1.411 seconds (JVM running for 1.665)
+25-03-28.03:49:03.015 [RMI TCP Connection(2)-172.25.80.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.03:49:03.015 [RMI TCP Connection(2)-172.25.80.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.03:49:03.017 [RMI TCP Connection(2)-172.25.80.1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-03-28.03:49:20.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":1031,"queueType":"LinkedBlockingQueue","remainingCapacity":3969,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.03:49:20.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":1031,"queueType":"LinkedBlockingQueue","remainingCapacity":3969,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:49:20.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.03:49:36.320 [http-nio-8089-exec-1] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:49:36.326 [http-nio-8089-exec-1] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.03:49:36.328 [redisson-3-12   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.03:49:36.340 [redisson-3-12   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:49:40.026 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":100,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":100,"queueSize":1484,"queueType":"LinkedBlockingQueue","remainingCapacity":3516,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.03:49:40.029 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":100,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":100,"queueSize":1484,"queueType":"LinkedBlockingQueue","remainingCapacity":3516,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:49:40.030 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.03:49:49.985 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 36196 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:49:49.986 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:49:50.328 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:49:50.330 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:49:50.339 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+25-03-28.03:49:50.548 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.03:49:50.553 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.03:49:50.553 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:49:50.553 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:49:50.602 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:49:50.602 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 592 ms
+25-03-28.03:49:50.952 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:49:51.072 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:49:51.085 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:49:51.098 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.03:49:51.125 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.03:49:51.140 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.03:49:51.147 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.03:49:51.156 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$f87d9fec.CGLIB$dynamicThreadPollService$0(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$f87d9fec$$FastClassBySpringCGLIB$$c36f0263.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$f87d9fec.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-28.03:50:12.892 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 14632 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:50:12.893 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:50:13.198 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:50:13.198 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:50:13.208 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.03:50:13.379 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.03:50:13.382 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.03:50:13.382 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:50:13.382 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:50:13.426 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:50:13.426 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 511 ms
+25-03-28.03:50:13.581 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:50:13.702 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:50:13.713 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:50:14.031 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:50:14.042 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.03:50:14.047 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.03:50:14.054 [main            ] INFO  Application            - Started Application in 1.372 seconds (JVM running for 1.62)
+25-03-28.03:50:14.106 [http-nio-8089-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.03:50:14.106 [http-nio-8089-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.03:50:14.106 [http-nio-8089-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-28.03:51:29.788 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 2536 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:51:29.790 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:51:30.124 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:51:30.124 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:51:30.135 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.03:51:30.350 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.03:51:30.355 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.03:51:30.355 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:51:30.355 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:51:30.399 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:51:30.400 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 590 ms
+25-03-28.03:51:30.745 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:51:30.862 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:51:30.871 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:51:30.888 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.03:51:30.914 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.03:51:30.941 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.03:51:30.949 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.03:51:30.957 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$8b1e06e6.CGLIB$dynamicThreadPollService$3(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$8b1e06e6$$FastClassBySpringCGLIB$$bc8ae30e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$8b1e06e6.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-28.03:52:14.180 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 29168 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:52:14.181 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:52:14.494 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:52:14.495 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:52:14.504 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.03:52:14.671 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.03:52:14.675 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.03:52:14.675 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:52:14.675 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:52:14.722 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:52:14.722 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 519 ms
+25-03-28.03:52:14.875 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:52:14.996 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:52:15.006 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:52:15.328 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:52:15.341 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.03:52:15.345 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.03:52:15.353 [main            ] INFO  Application            - Started Application in 1.382 seconds (JVM running for 1.643)
+25-03-28.03:52:15.859 [RMI TCP Connection(1)-172.25.80.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.03:52:15.859 [RMI TCP Connection(1)-172.25.80.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.03:52:15.861 [RMI TCP Connection(1)-172.25.80.1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-03-28.03:52:26.002 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 34124 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:52:26.003 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:52:26.334 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:52:26.336 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:52:26.345 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.03:52:26.550 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.03:52:26.554 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.03:52:26.554 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:52:26.554 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:52:26.602 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:52:26.602 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 577 ms
+25-03-28.03:52:26.947 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:52:27.069 [redisson-netty-1-8] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:52:27.084 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:52:27.097 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.03:52:27.124 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.03:52:27.137 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.03:52:27.144 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.03:52:27.152 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$a3b630c5.CGLIB$dynamicThreadPollService$0(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$a3b630c5$$FastClassBySpringCGLIB$$fa5e9dee.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$a3b630c5.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-28.03:57:25.726 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 28952 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:57:25.728 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:57:26.064 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:57:26.064 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:57:26.074 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.03:57:26.280 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.03:57:26.284 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.03:57:26.284 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:57:26.284 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:57:26.343 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:57:26.343 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 595 ms
+25-03-28.03:57:26.680 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:57:26.806 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:57:26.814 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:57:26.829 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.03:57:27.006 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:57:27.016 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8093"]
+25-03-28.03:57:27.026 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8093 (http) with context path ''
+25-03-28.03:57:27.035 [main            ] INFO  Application            - Started Application in 1.504 seconds (JVM running for 4.015)
+25-03-28.03:57:40.083 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":442,"queueType":"LinkedBlockingQueue","remainingCapacity":4558,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.03:57:40.086 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":442,"queueType":"LinkedBlockingQueue","remainingCapacity":4558,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:57:40.087 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.03:57:42.652 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 20820 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:57:42.654 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:57:43.020 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:57:43.020 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:57:43.030 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.03:57:43.204 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.03:57:43.210 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.03:57:43.212 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:57:43.212 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:57:43.258 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:57:43.258 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 584 ms
+25-03-28.03:57:43.418 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:57:43.549 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:57:43.559 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:57:43.897 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:57:43.908 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.03:57:43.912 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.03:57:43.920 [main            ] INFO  Application            - Started Application in 1.489 seconds (JVM running for 1.755)
+25-03-28.03:57:44.328 [RMI TCP Connection(1)-172.25.80.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.03:57:44.328 [RMI TCP Connection(1)-172.25.80.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.03:57:44.328 [RMI TCP Connection(1)-172.25.80.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-28.03:58:00.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1146,"queueType":"LinkedBlockingQueue","remainingCapacity":3854,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.03:58:00.013 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1146,"queueType":"LinkedBlockingQueue","remainingCapacity":3854,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:58:00.016 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.03:58:14.372 [http-nio-8089-exec-8] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:58:14.378 [http-nio-8089-exec-8] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.03:58:14.392 [redisson-3-12   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:100
+25-03-28.03:58:14.400 [redisson-3-12   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:58:20.019 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":1667,"queueType":"LinkedBlockingQueue","remainingCapacity":3333,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.03:58:20.021 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":1667,"queueType":"LinkedBlockingQueue","remainingCapacity":3333,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:58:20.022 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.03:58:28.736 [http-nio-8089-exec-5] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:58:28.739 [http-nio-8089-exec-5] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.03:58:28.741 [redisson-3-13   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.03:58:28.748 [redisson-3-13   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:58:46.706 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 34864 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:58:46.707 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:58:47.035 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:58:47.037 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:58:47.046 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.03:58:47.252 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.03:58:47.255 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.03:58:47.257 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:58:47.257 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:58:47.300 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:58:47.301 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 572 ms
+25-03-28.03:58:47.644 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:58:47.764 [redisson-netty-1-8] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:58:47.775 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:58:47.789 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.03:58:47.816 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.03:58:47.827 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.03:58:47.834 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.03:58:47.841 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$f87d9fec.CGLIB$dynamicThreadPollService$0(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$f87d9fec$$FastClassBySpringCGLIB$$c36f0263.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$f87d9fec.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-28.03:59:30.927 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 32856 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:59:30.929 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:59:31.262 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:59:31.263 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:59:31.272 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.03:59:31.474 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.03:59:31.477 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.03:59:31.477 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:59:31.477 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:59:31.527 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:59:31.527 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 578 ms
+25-03-28.03:59:31.867 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:59:31.985 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:59:31.994 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:59:32.011 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.03:59:32.194 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:59:32.207 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8093"]
+25-03-28.03:59:32.213 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8093 (http) with context path ''
+25-03-28.03:59:32.222 [main            ] INFO  Application            - Started Application in 1.51 seconds (JVM running for 1.762)
+25-03-28.03:59:38.292 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 12240 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.03:59:38.294 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.03:59:38.610 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.03:59:38.610 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.03:59:38.620 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.03:59:38.798 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.03:59:38.803 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.03:59:38.803 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.03:59:38.803 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.03:59:38.844 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.03:59:38.846 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 532 ms
+25-03-28.03:59:38.995 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.03:59:39.117 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:59:39.128 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.03:59:39.453 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.03:59:39.465 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.03:59:39.471 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.03:59:39.479 [main            ] INFO  Application            - Started Application in 1.397 seconds (JVM running for 1.647)
+25-03-28.03:59:39.951 [RMI TCP Connection(5)-172.25.80.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.03:59:39.951 [RMI TCP Connection(5)-172.25.80.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.03:59:39.951 [RMI TCP Connection(5)-172.25.80.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-28.03:59:40.079 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":286,"queueType":"LinkedBlockingQueue","remainingCapacity":4714,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.03:59:40.081 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":286,"queueType":"LinkedBlockingQueue","remainingCapacity":4714,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.03:59:40.082 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:00:00.018 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":907,"queueType":"LinkedBlockingQueue","remainingCapacity":4093,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:00:00.021 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":907,"queueType":"LinkedBlockingQueue","remainingCapacity":4093,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:00.024 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:00:00.962 [http-nio-8089-exec-10] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:00.968 [http-nio-8089-exec-10] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:00:00.980 [redisson-3-12   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.04:00:17.930 [http-nio-8089-exec-4] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:17.935 [http-nio-8089-exec-4] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:00:17.935 [redisson-3-14   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.04:00:20.015 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1477,"queueType":"LinkedBlockingQueue","remainingCapacity":3523,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:00:20.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1477,"queueType":"LinkedBlockingQueue","remainingCapacity":3523,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:20.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:00:36.492 [http-nio-8089-exec-3] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:36.495 [http-nio-8089-exec-3] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:00:36.496 [redisson-3-16   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:100
+25-03-28.04:00:36.502 [redisson-3-16   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:40.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":2017,"queueType":"LinkedBlockingQueue","remainingCapacity":2983,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:00:40.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":50,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":100,"poolSize":50,"queueSize":2017,"queueType":"LinkedBlockingQueue","remainingCapacity":2983,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:40.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:00:48.523 [http-nio-8089-exec-9] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:00:48.525 [http-nio-8089-exec-9] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:00:48.526 [redisson-3-17   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.04:00:48.534 [redisson-3-17   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:01:00.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":100,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":100,"queueSize":2453,"queueType":"LinkedBlockingQueue","remainingCapacity":2547,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:01:00.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":100,"appName":"dynamic-thread-pool-test-app","corePoolSize":100,"maximumPoolSize":200,"poolSize":100,"queueSize":2453,"queueType":"LinkedBlockingQueue","remainingCapacity":2547,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:01:00.013 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:01:13.549 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 31188 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:01:13.551 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:01:13.873 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:01:13.874 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:01:13.884 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:01:14.083 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:01:14.088 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:01:14.088 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:01:14.088 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:01:14.128 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:01:14.128 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 555 ms
+25-03-28.04:01:14.460 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:01:14.577 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:01:14.590 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:01:14.603 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:01:14.628 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.04:01:14.640 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.04:01:14.648 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.04:01:14.656 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$23cd49c1.CGLIB$dynamicThreadPollService$2(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$23cd49c1$$FastClassBySpringCGLIB$$ec4508ee.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$23cd49c1.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-28.04:01:25.270 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 30312 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:01:25.270 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:01:25.583 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:01:25.584 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:01:25.592 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.04:01:25.768 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.04:01:25.771 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.04:01:25.771 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:01:25.771 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:01:25.815 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:01:25.815 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 524 ms
+25-03-28.04:01:25.968 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:01:26.091 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:01:26.101 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:01:26.430 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:01:26.439 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.04:01:26.447 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.04:01:26.456 [main            ] INFO  Application            - Started Application in 1.395 seconds (JVM running for 1.642)
+25-03-28.04:01:26.657 [http-nio-8089-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.04:01:26.657 [http-nio-8089-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.04:01:26.657 [http-nio-8089-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-28.04:01:30.524 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 4268 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:01:30.525 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:01:30.849 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:01:30.850 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:01:30.861 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:01:31.063 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:01:31.067 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:01:31.067 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:01:31.067 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:01:31.110 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:01:31.110 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 564 ms
+25-03-28.04:01:31.446 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:01:31.564 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:01:31.578 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:01:31.591 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:01:31.617 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.04:01:31.628 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.04:01:31.637 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.04:01:31.645 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$9a8f6807.CGLIB$dynamicThreadPollService$2(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$9a8f6807$$FastClassBySpringCGLIB$$fb8893d8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$9a8f6807.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-28.04:06:41.473 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 10880 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:06:41.475 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:06:41.802 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:06:41.804 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:06:41.813 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:06:42.015 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:06:42.020 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:06:42.020 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:06:42.020 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:06:42.063 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:06:42.063 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 568 ms
+25-03-28.04:06:42.408 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:06:42.528 [redisson-netty-1-8] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:06:42.540 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:06:42.554 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:06:42.735 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:06:42.748 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8093"]
+25-03-28.04:06:42.754 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8093 (http) with context path ''
+25-03-28.04:06:42.761 [main            ] INFO  Application            - Started Application in 1.493 seconds (JVM running for 1.751)
+25-03-28.04:06:53.287 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 35616 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:06:53.287 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:06:53.600 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:06:53.601 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:06:53.611 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:06:53.807 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:06:53.812 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:06:53.812 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:06:53.812 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:06:53.853 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:06:53.853 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 546 ms
+25-03-28.04:06:54.187 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:06:54.305 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:06:54.316 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:06:54.331 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:06:54.508 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:06:54.519 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8093"]
+25-03-28.04:06:54.523 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8093 (http) with context path ''
+25-03-28.04:06:54.533 [main            ] INFO  Application            - Started Application in 1.453 seconds (JVM running for 1.694)
+25-03-28.04:07:00.086 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":181,"queueType":"LinkedBlockingQueue","remainingCapacity":4819,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:07:00.089 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":181,"queueType":"LinkedBlockingQueue","remainingCapacity":4819,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:07:00.090 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:07:20.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":894,"queueType":"LinkedBlockingQueue","remainingCapacity":4106,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:07:20.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":894,"queueType":"LinkedBlockingQueue","remainingCapacity":4106,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:07:20.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:07:40.003 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1573,"queueType":"LinkedBlockingQueue","remainingCapacity":3427,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:07:40.004 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1573,"queueType":"LinkedBlockingQueue","remainingCapacity":3427,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:07:40.005 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:08:00.003 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":2287,"queueType":"LinkedBlockingQueue","remainingCapacity":2713,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:08:00.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":2287,"queueType":"LinkedBlockingQueue","remainingCapacity":2713,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:08:00.007 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:08:31.715 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 20824 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:08:31.716 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:08:32.023 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:08:32.024 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:08:32.034 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.04:08:32.207 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.04:08:32.211 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.04:08:32.211 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:08:32.211 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:08:32.255 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:08:32.255 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 518 ms
+25-03-28.04:08:32.406 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:08:32.527 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:08:32.539 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:08:32.859 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:08:32.870 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.04:08:32.874 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.04:08:32.882 [main            ] INFO  Application            - Started Application in 1.377 seconds (JVM running for 1.627)
+25-03-28.04:08:33.381 [RMI TCP Connection(4)-172.25.80.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.04:08:33.381 [RMI TCP Connection(4)-172.25.80.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.04:08:33.382 [RMI TCP Connection(4)-172.25.80.1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-28.04:08:43.687 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 20372 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:08:43.689 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:08:44.016 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:08:44.017 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:08:44.027 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:08:44.228 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:08:44.232 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:08:44.232 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:08:44.232 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:08:44.276 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:08:44.276 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+25-03-28.04:08:44.614 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:08:44.733 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:08:44.746 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:08:44.762 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:08:44.960 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:08:44.972 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8093"]
+25-03-28.04:08:44.977 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8093 (http) with context path ''
+25-03-28.04:08:44.984 [main            ] INFO  Application            - Started Application in 1.514 seconds (JVM running for 1.81)
+25-03-28.04:08:51.102 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 23132 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:08:51.102 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:08:51.427 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:08:51.428 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:08:51.438 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.04:08:51.608 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.04:08:51.613 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.04:08:51.613 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:08:51.613 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:08:51.655 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:08:51.655 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 531 ms
+25-03-28.04:08:51.819 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:08:51.939 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:08:51.950 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:08:52.270 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:08:52.279 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.04:08:52.286 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.04:08:52.292 [main            ] INFO  Application            - Started Application in 1.398 seconds (JVM running for 1.662)
+25-03-28.04:08:52.732 [RMI TCP Connection(3)-172.25.80.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.04:08:52.732 [RMI TCP Connection(3)-172.25.80.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.04:08:52.732 [RMI TCP Connection(3)-172.25.80.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-28.04:11:30.907 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 30700 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:11:30.909 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:11:31.237 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:11:31.238 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:11:31.247 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:11:31.454 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:11:31.457 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:11:31.458 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:11:31.458 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:11:31.502 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:11:31.503 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 574 ms
+25-03-28.04:11:31.841 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:11:31.961 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:11:31.973 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:11:31.987 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:11:32.007 [redisson-netty-1-2] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x870d142b, L:/10.31.135.16:57986 - R:10.31.133.28/10.31.133.28:16379], reply: ReplayingDecoderByteBuf(ridx=331, widx=331), command: (GET), promise: java.util.concurrent.CompletableFuture@22adcab8[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_PARAMETER_LIST_KEY_dynamic-thread-pool-test-app_threadPoolExecutor01]
+com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43)
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2073)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1564)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66)
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromAny(AsPropertyTypeDeserializer.java:213)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserializeWithType(UntypedObjectDeserializer.java:781)
+	at com.fasterxml.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:74)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-03-28.04:11:32.009 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command
+25-03-28.04:11:32.009 [redisson-netty-1-2] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x870d142b, L:/10.31.135.16:57986 - R:10.31.133.28/10.31.133.28:16379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43)
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2073)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1564)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66)
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromAny(AsPropertyTypeDeserializer.java:213)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserializeWithType(UntypedObjectDeserializer.java:781)
+	at com.fasterxml.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:74)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+25-03-28.04:11:32.028 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.04:11:32.036 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.04:11:32.044 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
+	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
+	at org.redisson.RedissonObject.get(RedissonObject.java:90)
+	at org.redisson.RedissonBucket.get(RedissonBucket.java:136)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:86)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$8bb9315d.CGLIB$dynamicThreadPollService$1(<generated>)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$8bb9315d$$FastClassBySpringCGLIB$$5254bc48.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$8bb9315d.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43)
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2073)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1564)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66)
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromAny(AsPropertyTypeDeserializer.java:213)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserializeWithType(UntypedObjectDeserializer.java:781)
+	at com.fasterxml.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:74)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-03-28.04:11:46.535 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 28780 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:11:46.535 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:11:46.863 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:11:46.863 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:11:46.874 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:11:47.077 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:11:47.082 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:11:47.082 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:11:47.082 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:11:47.126 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:11:47.126 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+25-03-28.04:11:47.470 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:11:47.590 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:11:47.602 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:11:47.617 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:11:47.632 [redisson-netty-1-2] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0xc8ae853a, L:/10.31.135.16:58083 - R:10.31.133.28/10.31.133.28:16379], reply: ReplayingDecoderByteBuf(ridx=331, widx=331), command: (GET), promise: java.util.concurrent.CompletableFuture@7c9512f1[Not completed, 1 dependents], params: [THREAD_POOL_CONFIG_PARAMETER_LIST_KEY_dynamic-thread-pool-test-app_threadPoolExecutor01]
+com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43)
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2073)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1564)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66)
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromAny(AsPropertyTypeDeserializer.java:213)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserializeWithType(UntypedObjectDeserializer.java:781)
+	at com.fasterxml.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:74)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-03-28.04:11:47.635 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command
+25-03-28.04:11:47.635 [redisson-netty-1-2] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xc8ae853a, L:/10.31.135.16:58083 - R:10.31.133.28/10.31.133.28:16379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43)
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2073)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1564)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66)
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromAny(AsPropertyTypeDeserializer.java:213)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserializeWithType(UntypedObjectDeserializer.java:781)
+	at com.fasterxml.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:74)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+25-03-28.04:11:47.645 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.04:11:47.653 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.04:11:47.661 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: org.redisson.client.RedisException: Unexpected exception while processing command
+	at org.redisson.command.CommandAsyncService.convertException(CommandAsyncService.java:333)
+	at org.redisson.command.CommandAsyncService.get(CommandAsyncService.java:150)
+	at org.redisson.RedissonObject.get(RedissonObject.java:90)
+	at org.redisson.RedissonBucket.get(RedissonBucket.java:136)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:86)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$97070ff2.CGLIB$dynamicThreadPollService$5(<generated>)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$97070ff2$$FastClassBySpringCGLIB$$821ae6c1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$97070ff2.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'example.middleware.dynamicthreadpool.sdk.domain.model.entity.ThreadPoolConfigEntity' as a subtype of `java.lang.Object`: no such class found
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 11]
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43)
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2073)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1564)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76)
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66)
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110)
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromAny(AsPropertyTypeDeserializer.java:213)
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserializeWithType(UntypedObjectDeserializer.java:781)
+	at com.fasterxml.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:74)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:433)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:216)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-03-28.04:13:50.253 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 35260 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:13:50.255 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:13:50.588 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:13:50.589 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:13:50.599 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+25-03-28.04:13:50.806 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:13:50.810 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:13:50.810 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:13:50.810 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:13:50.856 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:13:50.856 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 581 ms
+25-03-28.04:13:51.198 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:13:51.320 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:13:51.332 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:13:51.346 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:13:51.529 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:13:51.541 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8093"]
+25-03-28.04:13:51.545 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8093 (http) with context path ''
+25-03-28.04:13:51.555 [main            ] INFO  Application            - Started Application in 1.513 seconds (JVM running for 1.77)
+25-03-28.04:14:00.085 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":288,"queueType":"LinkedBlockingQueue","remainingCapacity":4712,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:14:00.088 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":288,"queueType":"LinkedBlockingQueue","remainingCapacity":4712,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:14:00.089 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:14:04.923 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 19332 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:14:04.924 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:14:05.234 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:14:05.235 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:14:05.244 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-28.04:14:05.415 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-28.04:14:05.418 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-28.04:14:05.419 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:14:05.419 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:14:05.461 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:14:05.463 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 517 ms
+25-03-28.04:14:05.617 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:14:05.740 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:14:05.753 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:14:06.072 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-28.04:14:06.085 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-28.04:14:06.090 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-28.04:14:06.097 [main            ] INFO  Application            - Started Application in 1.385 seconds (JVM running for 1.633)
+25-03-28.04:14:06.587 [RMI TCP Connection(1)-172.25.80.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-28.04:14:06.587 [RMI TCP Connection(1)-172.25.80.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-28.04:14:06.587 [RMI TCP Connection(1)-172.25.80.1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-28.04:14:20.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":992,"queueType":"LinkedBlockingQueue","remainingCapacity":4008,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:14:20.025 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":992,"queueType":"LinkedBlockingQueue","remainingCapacity":4008,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:14:20.029 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:14:25.547 [http-nio-8089-exec-7] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:14:25.553 [http-nio-8089-exec-7] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:14:25.567 [redisson-3-12   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.04:14:40.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1547,"queueType":"LinkedBlockingQueue","remainingCapacity":3453,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:14:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":20,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":20,"queueSize":1547,"queueType":"LinkedBlockingQueue","remainingCapacity":3453,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:14:40.012 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:14:40.485 [http-nio-8089-exec-4] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:14:40.488 [http-nio-8089-exec-4] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:14:40.490 [redisson-3-14   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.04:14:40.498 [redisson-3-14   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":50,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:14:53.670 [http-nio-8089-exec-1] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:14:53.671 [http-nio-8089-exec-1] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:14:53.671 [redisson-3-15   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:200
+25-03-28.04:14:53.683 [redisson-3-15   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:15:00.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":1920,"queueType":"LinkedBlockingQueue","remainingCapacity":3080,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:15:00.010 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":1920,"queueType":"LinkedBlockingQueue","remainingCapacity":3080,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:15:00.013 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:15:20.007 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":2251,"queueType":"LinkedBlockingQueue","remainingCapacity":2749,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:15:20.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":2251,"queueType":"LinkedBlockingQueue","remainingCapacity":2749,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:15:20.010 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:15:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":2667,"queueType":"LinkedBlockingQueue","remainingCapacity":2333,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:15:40.013 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":2667,"queueType":"LinkedBlockingQueue","remainingCapacity":2333,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:15:40.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:16:00.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":3137,"queueType":"LinkedBlockingQueue","remainingCapacity":1863,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:16:00.010 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":150,"appName":"dynamic-thread-pool-test-app","corePoolSize":150,"maximumPoolSize":200,"poolSize":150,"queueSize":3137,"queueType":"LinkedBlockingQueue","remainingCapacity":1863,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:16:00.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:16:12.850 [http-nio-8089-exec-10] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:16:12.854 [http-nio-8089-exec-10] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:16:12.855 [redisson-3-16   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:300
+25-03-28.04:16:12.862 [redisson-3-16   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:16:20.025 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":200,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":200,"queueSize":3399,"queueType":"LinkedBlockingQueue","remainingCapacity":1601,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:16:20.028 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":200,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":200,"queueSize":3399,"queueType":"LinkedBlockingQueue","remainingCapacity":1601,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:16:20.030 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:16:40.021 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":200,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":200,"queueSize":3602,"queueType":"LinkedBlockingQueue","remainingCapacity":1398,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:16:40.024 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":200,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":200,"queueSize":3602,"queueType":"LinkedBlockingQueue","remainingCapacity":1398,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:16:40.025 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:17:00.023 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":200,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":200,"queueSize":3957,"queueType":"LinkedBlockingQueue","remainingCapacity":1043,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:17:00.026 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":200,"appName":"dynamic-thread-pool-test-app","corePoolSize":200,"maximumPoolSize":300,"poolSize":200,"queueSize":3957,"queueType":"LinkedBlockingQueue","remainingCapacity":1043,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:17:00.028 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:17:00.593 [http-nio-8089-exec-8] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:17:00.595 [http-nio-8089-exec-8] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:17:00.596 [redisson-3-17   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:400
+25-03-28.04:17:00.600 [redisson-3-17   ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:17:20.002 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4087,"queueType":"LinkedBlockingQueue","remainingCapacity":913,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:17:20.004 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4087,"queueType":"LinkedBlockingQueue","remainingCapacity":913,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:17:20.005 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:17:37.712 [http-nio-8089-exec-3] INFO  DynamicThreadPoolController - 修改线程池配置开始 dynamic-thread-pool-test-app threadPoolExecutor01 {"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":1000,"maximumPoolSize":2000,"poolSize":0,"queueSize":0,"remainingCapacity":0,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:17:37.713 [http-nio-8089-exec-3] INFO  DynamicThreadPoolController - 修改线程池配置完成 dynamic-thread-pool-test-app threadPoolExecutor01
+25-03-28.04:17:37.713 [redisson-3-1    ] INFO  ThreadPoolConfigAdjustListener - 动态线程池，调整线程池配置。线程池名称:threadPoolExecutor01 核心线程数:0 最大线程数:2000
+25-03-28.04:17:40.006 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4277,"queueType":"LinkedBlockingQueue","remainingCapacity":723,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:17:40.007 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4277,"queueType":"LinkedBlockingQueue","remainingCapacity":723,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:17:40.009 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:18:00.002 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4491,"queueType":"LinkedBlockingQueue","remainingCapacity":509,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:18:00.004 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4491,"queueType":"LinkedBlockingQueue","remainingCapacity":509,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:18:00.005 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:18:20.014 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4616,"queueType":"LinkedBlockingQueue","remainingCapacity":384,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:18:20.017 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4616,"queueType":"LinkedBlockingQueue","remainingCapacity":384,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:18:20.020 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:18:40.008 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4700,"queueType":"LinkedBlockingQueue","remainingCapacity":300,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+25-03-28.04:18:40.010 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"dynamic-thread-pool-test-app","corePoolSize":300,"maximumPoolSize":400,"poolSize":300,"queueSize":4700,"queueType":"LinkedBlockingQueue","remainingCapacity":300,"threadPoolName":"threadPoolExecutor01"}
+25-03-28.04:18:40.011 [scheduling-1    ] INFO  ThreadPoolDataReportJob - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"dynamic-thread-pool-test-app","corePoolSize":20,"maximumPoolSize":50,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+25-03-28.04:18:57.616 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 36272 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:18:57.618 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:18:57.945 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:18:57.947 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:18:57.956 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:18:58.160 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:18:58.164 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:18:58.164 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:18:58.164 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:18:58.212 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:18:58.212 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 574 ms
+25-03-28.04:18:58.557 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:18:58.674 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:18:58.684 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:18:58.701 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:18:58.730 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.04:18:58.744 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.04:18:58.752 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.04:18:58.759 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$97070ff2.CGLIB$dynamicThreadPollService$2(<generated>)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$97070ff2$$FastClassBySpringCGLIB$$821ae6c1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$97070ff2.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-28.04:19:11.375 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 31712 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-28.04:19:11.375 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-28.04:19:11.699 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-28.04:19:11.700 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-28.04:19:11.710 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-28.04:19:11.912 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-28.04:19:11.917 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-28.04:19:11.917 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-28.04:19:11.917 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-28.04:19:11.962 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-28.04:19:11.962 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+25-03-28.04:19:12.299 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-28.04:19:12.417 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:19:12.429 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-28.04:19:12.443 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-28.04:19:12.469 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-28.04:19:12.480 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-28.04:19:12.489 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-28.04:19:12.497 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [example/middleware/dynamicthreadpool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [example.middleware.dynamicthreadpool.sdk.domain.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$a6e4e18d.CGLIB$dynamicThreadPollService$0(<generated>)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$a6e4e18d$$FastClassBySpringCGLIB$$e2c18c16.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$a6e4e18d.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted

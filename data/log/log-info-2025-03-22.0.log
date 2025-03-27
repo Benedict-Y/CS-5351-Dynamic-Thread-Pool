@@ -1,0 +1,290 @@
+25-03-22.23:28:30.403 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 23332 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:28:30.404 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:28:30.730 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:28:30.731 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:28:30.742 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-22.23:28:30.933 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-22.23:28:30.937 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-22.23:28:30.938 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:28:30.938 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:28:30.995 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:28:30.995 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+25-03-22.23:28:31.326 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:29:05.310 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 896 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:29:05.311 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:29:05.627 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:29:05.628 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:29:05.637 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-22.23:29:05.831 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-22.23:29:05.835 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-22.23:29:05.835 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:29:05.836 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:29:05.876 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:29:05.876 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 542 ms
+25-03-22.23:29:06.196 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:29:25.617 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 20232 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:29:25.618 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:29:25.928 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:29:25.929 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:29:25.939 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-22.23:29:26.133 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-22.23:29:26.139 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-22.23:29:26.139 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:29:26.139 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:29:26.180 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:29:26.181 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 543 ms
+25-03-22.23:29:26.507 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:30:09.710 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadRedissonClient' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 10.31.133.28/10.31.133.28:16379
+25-03-22.23:48:54.849 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 14588 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:48:54.851 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:48:55.173 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:48:55.175 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:48:55.184 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-22.23:48:55.388 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-22.23:48:55.392 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-22.23:48:55.392 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:48:55.392 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:48:55.438 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:48:55.438 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+25-03-22.23:48:55.773 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:48:55.883 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:48:55.897 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:48:55.910 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-22.23:48:55.936 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-22.23:48:55.955 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.23:48:55.963 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.23:48:55.970 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$fbdf78de.CGLIB$dynamicThreadPollService$0(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$fbdf78de$$FastClassBySpringCGLIB$$be196879.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$fbdf78de.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-22.23:49:33.881 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 5268 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:49:33.883 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:49:34.196 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:49:34.196 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:49:34.207 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-22.23:49:34.399 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-22.23:49:34.404 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-22.23:49:34.404 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:49:34.404 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:49:34.444 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:49:34.444 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 539 ms
+25-03-22.23:49:34.775 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:49:34.888 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:49:34.899 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:49:34.913 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-22.23:49:34.938 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-22.23:49:34.952 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.23:49:34.959 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.23:49:34.965 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$72d5773.CGLIB$dynamicThreadPollService$0(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$72d5773$$FastClassBySpringCGLIB$$b38b802e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$72d5773.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-22.23:52:26.651 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 16588 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:52:26.654 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:52:27.055 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:52:27.057 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:52:27.067 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+25-03-22.23:52:27.328 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-22.23:52:27.331 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-22.23:52:27.333 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:52:27.333 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:52:27.393 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:52:27.394 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 703 ms
+25-03-22.23:52:27.916 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:52:28.041 [redisson-netty-1-8] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:52:28.049 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:52:28.062 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-22.23:52:28.090 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-22.23:52:28.108 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.23:52:28.116 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.23:52:28.125 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$b0e37a54.CGLIB$dynamicThreadPollService$0(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$b0e37a54$$FastClassBySpringCGLIB$$c883e03e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$b0e37a54.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+25-03-22.23:54:57.457 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 1656 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:54:57.457 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:54:57.754 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:54:57.755 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:54:57.762 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+25-03-22.23:54:57.931 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+25-03-22.23:54:57.934 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+25-03-22.23:54:57.936 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:54:57.936 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:54:57.979 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:54:57.979 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 501 ms
+25-03-22.23:54:58.127 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:54:58.242 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:54:58.252 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:54:58.569 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-22.23:54:58.580 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+25-03-22.23:54:58.584 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+25-03-22.23:54:58.592 [main            ] INFO  Application            - Started Application in 1.33 seconds (JVM running for 1.574)
+25-03-22.23:54:59.126 [RMI TCP Connection(2)-10.31.135.16] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.23:54:59.126 [RMI TCP Connection(2)-10.31.135.16] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.23:54:59.128 [RMI TCP Connection(2)-10.31.135.16] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-03-22.23:56:22.934 [main            ] INFO  Application            - Starting Application using Java 18.0.2.1 on DESKTOP-OP89CAK with PID 24900 (D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool\dynamic-thread-pool-test\target\classes started by admin in D:\2024-25semesterB\CS5351\project\Dynamic_Thread_Pool_Material\dynamic-thread-pool)
+25-03-22.23:56:22.935 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.23:56:23.250 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-22.23:56:23.252 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-22.23:56:23.262 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-03-22.23:56:23.455 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8093 (http)
+25-03-22.23:56:23.458 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8093"]
+25-03-22.23:56:23.458 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.23:56:23.458 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.23:56:23.501 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.23:56:23.502 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 547 ms
+25-03-22.23:56:23.830 [main            ] INFO  Version                - Redisson 3.26.0
+25-03-22.23:56:23.956 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:56:23.968 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 10.31.133.28/10.31.133.28:16379
+25-03-22.23:56:23.982 [main            ] INFO  DynamicThreadPoolAutoConfig - 动态线程池，注册器（redis）链接初始化完成。10.31.133.28 64 true
+25-03-22.23:56:24.012 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+25-03-22.23:56:24.027 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.23:56:24.034 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.23:56:24.041 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicThreadPollService' defined in class path resource [cn/bugstack/middleware/dynamic/thread/pool/sdk/config/DynamicThreadPoolAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at example.Application.main(Application.java:18)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [domain.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolService]: Factory method 'dynamicThreadPollService' threw exception; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.setCorePoolSize(ThreadPoolExecutor.java:1550)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig.dynamicThreadPollService(DynamicThreadPoolAutoConfig.java:89)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$fbdf78de.CGLIB$dynamicThreadPollService$0(<generated>)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$fbdf78de$$FastClassBySpringCGLIB$$be196879.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at config.sdk.example.middleware.dynamicthreadpool.DynamicThreadPoolAutoConfig$$EnhancerBySpringCGLIB$$fbdf78de.dynamicThreadPollService(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
