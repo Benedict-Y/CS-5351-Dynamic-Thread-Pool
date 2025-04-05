@@ -12,9 +12,7 @@ import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 动态线程池服务
- * @create 2024-05-12 16:08
  */
 public class DynamicThreadPoolService implements IDynamicThreadPoolService {
 
@@ -52,7 +50,7 @@ public class DynamicThreadPoolService implements IDynamicThreadPoolService {
         ThreadPoolExecutor threadPoolExecutor = threadPoolExecutorMap.get(threadPoolName);
         if (null == threadPoolExecutor) return new ThreadPoolConfigEntity(applicationName, threadPoolName);
 
-        // 线程池配置数据
+        // Thread pool configuration data
         ThreadPoolConfigEntity threadPoolConfigVO = new ThreadPoolConfigEntity(applicationName, threadPoolName);
         threadPoolConfigVO.setCorePoolSize(threadPoolExecutor.getCorePoolSize());
         threadPoolConfigVO.setMaximumPoolSize(threadPoolExecutor.getMaximumPoolSize());
@@ -75,7 +73,7 @@ public class DynamicThreadPoolService implements IDynamicThreadPoolService {
         ThreadPoolExecutor threadPoolExecutor = threadPoolExecutorMap.get(threadPoolConfigEntity.getThreadPoolName());
         if (null == threadPoolExecutor) return;
 
-        // 设置参数 「调整核心线程数和最大线程数」
+        // Set parameters: adjust core pool size and maximum pool size
         threadPoolExecutor.setCorePoolSize(threadPoolConfigEntity.getCorePoolSize());
         threadPoolExecutor.setMaximumPoolSize(threadPoolConfigEntity.getMaximumPoolSize());
     }

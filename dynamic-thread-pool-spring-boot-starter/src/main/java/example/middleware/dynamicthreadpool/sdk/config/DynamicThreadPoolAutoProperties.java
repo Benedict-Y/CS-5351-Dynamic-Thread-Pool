@@ -3,37 +3,51 @@ package example.middleware.dynamicthreadpool.sdk.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 动态线程池配置
- * @create 2024-05-12 16:23
  */
 @ConfigurationProperties(prefix = "dynamic.thread.pool.config", ignoreInvalidFields = true)
 public class DynamicThreadPoolAutoProperties {
 
-    /** 状态；open = 开启、close 关闭 */
+    /** Status; open = enabled, close = disabled */
     private boolean enable;
-    /** redis host */
+
+    /** Redis host */
     private String host;
-    /** redis port */
+
+    /** Redis port */
     private int port;
-    /** 账密 */
+
+    /** Account password */
     private String password;
-    /** 设置连接池的大小，默认为64 */
+
+    /** Size of the connection pool, default is 64 */
     private int poolSize = 64;
-    /** 设置连接池的最小空闲连接数，默认为10 */
+
+    /** Minimum number of idle connections in the pool, default is 10 */
     private int minIdleSize = 10;
-    /** 设置连接的最大空闲时间（单位：毫秒），超过该时间的空闲连接将被关闭，默认为10000 */
+
+    /** Maximum idle time for connections (in milliseconds);
+     *  idle connections exceeding this time will be closed. Default is 10000
+     */
     private int idleTimeout = 10000;
-    /** 设置连接超时时间（单位：毫秒），默认为10000 */
+
+    /** Connection timeout (in milliseconds), default is 10000 */
     private int connectTimeout = 10000;
-    /** 设置连接重试次数，默认为3 */
+
+    /** Number of retry attempts, default is 3 */
     private int retryAttempts = 3;
-    /** 设置连接重试的间隔时间（单位：毫秒），默认为1000 */
+
+    /** Interval between retries (in milliseconds), default is 1000 */
     private int retryInterval = 1000;
-    /** 设置定期检查连接是否可用的时间间隔（单位：毫秒），默认为0，表示不进行定期检查 */
+
+    /** Interval to periodically check if the connection is alive (in milliseconds);
+     *  default is 0, meaning no periodic check
+     */
     private int pingInterval = 0;
-    /** 设置是否保持长连接，默认为true */
+
+    /** Whether to keep the connection alive, default is true */
     private boolean keepAlive = true;
+
 
     public boolean isEnable() {
         return enable;

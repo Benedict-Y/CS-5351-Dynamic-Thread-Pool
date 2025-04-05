@@ -3,49 +3,50 @@ package example.middleware.dynamicthreadpool.sdk.entity;
 public class ThreadPoolConfigEntity {
 
     /**
-     * 应用名称
+     * Application name
      */
     private String appName;
 
     /**
-     * 线程池名称
+     * Thread pool name
      */
     private String threadPoolName;
 
     /**
-     * 核心线程数
+     * Core number of threads
      */
     private int corePoolSize;
 
     /**
-     * 最大线程数
+     * Maximum number of threads
      */
     private int maximumPoolSize;
 
     /**
-     * 当前活跃线程数
+     * Current number of active threads
      */
     private int activeCount;
 
     /**
-     * 当前池中线程数
+     * Current number of threads in the pool
      */
     private int poolSize;
 
     /**
-     * 队列类型
+     * Type of the task queue
      */
     private String queueType;
 
     /**
-     * 当前队列任务数
+     * Current number of tasks in the queue
      */
     private int queueSize;
 
     /**
-     * 队列剩余任务数
+     * Remaining capacity of the task queue
      */
     private int remainingCapacity;
+
 
     public ThreadPoolConfigEntity() {
     }

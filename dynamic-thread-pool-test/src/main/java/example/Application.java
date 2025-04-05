@@ -21,22 +21,24 @@ public class Application {
     @Bean
     public ApplicationRunner applicationRunner(ExecutorService threadPoolExecutor01) {
         return args -> {
-            while (true){
-                // 创建一个随机时间生成器
+            while (true) {
+                // Create a random number generator
                 Random random = new Random();
-                // 随机时间，用于模拟任务启动延迟
-                int initialDelay = random.nextInt(10) + 1; // 1到10秒之间
-                // 随机休眠时间，用于模拟任务执行时间
-                int sleepTime = random.nextInt(10) + 1; // 1到10秒之间
 
-                // 提交任务到线程池
+                // Random delay to simulate task startup latency
+                int initialDelay = random.nextInt(10) + 1; // between 1 and 10 seconds
+
+                // Random sleep time to simulate task execution duration
+                int sleepTime = random.nextInt(10) + 1; // between 1 and 10 seconds
+
+                // Submit a task to the thread pool
                 threadPoolExecutor01.submit(() -> {
                     try {
-                        // 模拟任务启动延迟
+                        // Simulate task startup delay
                         TimeUnit.SECONDS.sleep(initialDelay);
                         System.out.println("Task started after " + initialDelay + " seconds.");
 
-                        // 模拟任务执行
+                        // Simulate task execution
                         TimeUnit.SECONDS.sleep(sleepTime);
                         System.out.println("Task executed for " + sleepTime + " seconds.");
                     } catch (InterruptedException e) {
@@ -44,10 +46,10 @@ public class Application {
                     }
                 });
 
+                // Wait randomly before submitting the next task
                 Thread.sleep(random.nextInt(50) + 1);
             }
         };
     }
-
-
 }
+

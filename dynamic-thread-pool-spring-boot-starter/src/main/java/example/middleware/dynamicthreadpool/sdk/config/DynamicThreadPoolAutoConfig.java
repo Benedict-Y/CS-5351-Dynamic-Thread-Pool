@@ -27,9 +27,7 @@ import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 动态配置入口
- * @create 2024-05-12 15:37
  */
 @Configuration
 @EnableConfigurationProperties(DynamicThreadPoolAutoProperties.class)
@@ -43,7 +41,9 @@ public class DynamicThreadPoolAutoConfig {
     @Bean("dynamicThreadRedissonClient")
     public RedissonClient redissonClient(DynamicThreadPoolAutoProperties properties) {
         Config config = new Config();
-        // 根据需要可以设定编解码器；https://github.com/redisson/redisson/wiki/4.-%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97%E5%8C%96
+
+        // Set the codec as needed
+        // https://github.com/redisson/redisson/wiki/4.-%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97%E5%8C%96
         config.setCodec(JsonJacksonCodec.INSTANCE);
 
         config.useSingleServer()
@@ -80,7 +80,7 @@ public class DynamicThreadPoolAutoConfig {
             logger.warn("动态线程池，启动提示。SpringBoot 应用未配置 spring.application.name 无法获取到应用名称！");
         }
 
-        // 获取缓存数据，设置本地线程池配置
+        // Retrieve cached data and set local thread pool configuration
         Set<String> threadPoolKeys = threadPoolExecutorMap.keySet();
         for (String threadPoolKey : threadPoolKeys) {
             ThreadPoolConfigEntity threadPoolConfigEntity = redissonClient.<ThreadPoolConfigEntity>getBucket(RegistryEnumVO.THREAD_POOL_CONFIG_PARAMETER_LIST_KEY.getKey() + "_" + applicationName + "_" + threadPoolKey).get();

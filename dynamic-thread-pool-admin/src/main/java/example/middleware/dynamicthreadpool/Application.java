@@ -29,7 +29,7 @@ public class Application {
         @Bean("redissonClient")
         public RedissonClient redissonClient(ConfigurableApplicationContext applicationContext, RedisClientConfigProperties properties) {
             Config config = new Config();
-            // 根据需要可以设定编解码器；https://github.com/redisson/redisson/wiki/4.-%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97%E5%8C%96
+            // Codec can be set as needed :https://github.com/redisson/redisson/wiki/4.-%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97%E5%8C%96
             config.setCodec(JsonJacksonCodec.INSTANCE);
 
             config.useSingleServer()
@@ -57,46 +57,59 @@ public class Application {
          * host:ip
          */
         private String host;
+
         /**
-         * 端口
+         * Port number
          */
         private int port;
+
         /**
-         * 账密
+         * Account password
          */
         private String password;
+
         /**
-         * 设置连接池的大小，默认为64
+         * Size of the connection pool, default is 64
          */
         private int poolSize = 64;
+
         /**
-         * 设置连接池的最小空闲连接数，默认为10
+         * Minimum number of idle connections in the pool, default is 10
          */
         private int minIdleSize = 10;
+
         /**
-         * 设置连接的最大空闲时间（单位：毫秒），超过该时间的空闲连接将被关闭，默认为10000
+         * Maximum idle time for connections in milliseconds;
+         * idle connections exceeding this time will be closed. Default is 10000
          */
         private int idleTimeout = 10000;
+
         /**
-         * 设置连接超时时间（单位：毫秒），默认为10000
+         * Connection timeout in milliseconds, default is 10000
          */
         private int connectTimeout = 10000;
+
         /**
-         * 设置连接重试次数，默认为3
+         * Number of retry attempts, default is 3
          */
         private int retryAttempts = 3;
+
         /**
-         * 设置连接重试的间隔时间（单位：毫秒），默认为1000
+         * Interval between retries in milliseconds, default is 1000
          */
         private int retryInterval = 1000;
+
         /**
-         * 设置定期检查连接是否可用的时间间隔（单位：毫秒），默认为0，表示不进行定期检查
+         * Interval for periodically checking connection availability (in milliseconds);
+         * default is 0, meaning no periodic check
          */
         private int pingInterval = 0;
+
         /**
-         * 设置是否保持长连接，默认为true
+         * Whether to keep connections alive; default is true
          */
         private boolean keepAlive = true;
+
     }
 
 }

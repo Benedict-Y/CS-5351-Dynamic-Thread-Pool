@@ -16,7 +16,7 @@ public class ThreadPoolConfig {
 
     @Bean("threadPoolExecutor01")
     public ThreadPoolExecutor threadPoolExecutor01(ThreadPoolConfigProperties properties) {
-        // 实例化策略
+        // Instantiate the rejection policy
         RejectedExecutionHandler handler;
         switch (properties.getPolicy()){
             case "AbortPolicy":
@@ -36,7 +36,7 @@ public class ThreadPoolConfig {
                 break;
         }
 
-        // 创建线程池
+        // Create the thread pool
         return new ThreadPoolExecutor(properties.getCorePoolSize(),
                 properties.getMaxPoolSize(),
                 properties.getKeepAliveTime(),
@@ -48,7 +48,7 @@ public class ThreadPoolConfig {
 
     @Bean("threadPoolExecutor02")
     public ThreadPoolExecutor threadPoolExecutor02(ThreadPoolConfigProperties properties) {
-        // 实例化策略
+        // Instantiate the rejection policy
         RejectedExecutionHandler handler;
         switch (properties.getPolicy()){
             case "AbortPolicy":
@@ -68,7 +68,7 @@ public class ThreadPoolConfig {
                 break;
         }
 
-        // 创建线程池
+        // Create the thread pool
         return new ThreadPoolExecutor(properties.getCorePoolSize(),
                 properties.getMaxPoolSize(),
                 properties.getKeepAliveTime(),
