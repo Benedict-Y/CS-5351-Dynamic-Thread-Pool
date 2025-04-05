@@ -123,22 +123,22 @@
 
 <body>
 <div class="container">
-    <h1>Dynamic Thread Pool —— 动态线程池</h1>
+    <h1>Dynamic Thread Pool</h1>
     <div class="loader">Loading...</div>
-    <button id="autoRefreshBtn">自动刷新</button>
-    <button id="stopAutoRefreshBtn" style="display:none;">停止刷新</button>
+    <button id="autoRefreshBtn">Auto Refresh</button>
+    <button id="stopAutoRefreshBtn" style="display:none;">Stop Refresh</button>
     <table id="threadPoolList">
         <thead>
         <tr>
-            <th>应用名称</th>
-            <th>线程池名称</th>
-            <th>核心线程池数</th>
-            <th>最大线程数</th>
-            <th>当前活跃线程数</th>
-            <th>当前池中线程数</th>
-            <th>队列类型</th>
-            <th>当前队列任务数</th>
-            <th>队列剩余容量数</th>
+            <th>Application Name</th>
+            <th>Thread Pool Name</th>
+            <th>Core Pool Size</th>
+            <th>Maximum Pool Size</th>
+            <th>Active Threads</th>
+            <th>Total Threads in Pool</th>
+            <th>Queue Type</th>
+            <th>Queued Tasks</th>
+            <th>Remaining Queue Capacity</th>
         </tr>
         </thead>
         <tbody>
@@ -147,26 +147,33 @@
     </table>
 </div>
 
+
 <!-- Modal -->
 <div id="myModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
         <h2>Thread Pool Configuration</h2>
         <form id="configForm">
-            <label for="appName">应用名称:</label><br>
+            <label for="appName">Application Name:</label><br>
             <input type="text" id="appName" name="appName" readonly><br>
-            <label for="threadPoolName">线程池名称:</label><br>
+
+            <label for="threadPoolName">Thread Pool Name:</label><br>
             <input type="text" id="threadPoolName" name="threadPoolName" readonly><br>
-            <label for="corePoolSize">核心线程池数:</label><br>
+
+            <label for="corePoolSize">Core Pool Size:</label><br>
             <input type="number" id="corePoolSize" name="corePoolSize"><br>
-            <label for="maximumPoolSize">最大线程数:</label><br>
+
+            <label for="maximumPoolSize">Maximum Pool Size:</label><br>
             <input type="number" id="maximumPoolSize" name="maximumPoolSize"><br>
-            <button type="button" onclick="updateConfig()">确认修改</button>
+
+            <button type="button" onclick="updateConfig()">Confirm</button>
         </form>
     </div>
 </div>
 
+
 <script>
+
         document.addEventListener('DOMContentLoaded', function() {
             var loader = document.querySelector('.loader');
             var tbody = document.querySelector('#threadPoolList tbody');
