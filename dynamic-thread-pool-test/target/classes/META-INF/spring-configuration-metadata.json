@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "name": "thread.pool.executor.config",
+      "type": "example.config.ThreadPoolConfigProperties",
+      "sourceType": "example.config.ThreadPoolConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "thread.pool.executor.config.block-queue-size",
+      "type": "java.lang.Integer",
+      "description": "Maximum queue capacity",
+      "sourceType": "example.config.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.core-pool-size",
+      "type": "java.lang.Integer",
+      "description": "Core number of threads",
+      "sourceType": "example.config.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.keep-alive-time",
+      "type": "java.lang.Long",
+      "description": "Maximum keep-alive time",
+      "sourceType": "example.config.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.max-pool-size",
+      "type": "java.lang.Integer",
+      "description": "Maximum number of threads",
+      "sourceType": "example.config.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "thread.pool.executor.config.policy",
+      "type": "java.lang.String",
+      "sourceType": "example.config.ThreadPoolConfigProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,8 @@
+.idea/
+*.iml
+/target/
+*.log
+git rm -r --cached .idea
+git add .gitignore
+git commit -m "chore: remove .idea folder and add to .gitignore"
+git push

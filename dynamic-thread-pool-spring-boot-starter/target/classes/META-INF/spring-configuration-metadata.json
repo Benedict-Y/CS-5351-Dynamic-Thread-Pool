@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "name": "dynamic.thread.pool.config",
+      "type": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dynamic.thread.pool.config.connect-timeout",
+      "type": "java.lang.Integer",
+      "description": "Connection timeout (in milliseconds), default is 10000",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.enable",
+      "type": "java.lang.Boolean",
+      "description": "Status; open = enabled, close = disabled",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.host",
+      "type": "java.lang.String",
+      "description": "Redis host",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.idle-timeout",
+      "type": "java.lang.Integer",
+      "description": "Maximum idle time for connections (in milliseconds);  idle connections exceeding this time will be closed. Default is 10000",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.keep-alive",
+      "type": "java.lang.Boolean",
+      "description": "Whether to keep the connection alive, default is true",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.min-idle-size",
+      "type": "java.lang.Integer",
+      "description": "Minimum number of idle connections in the pool, default is 10",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.password",
+      "type": "java.lang.String",
+      "description": "Account password",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.ping-interval",
+      "type": "java.lang.Integer",
+      "description": "Interval to periodically check if the connection is alive (in milliseconds);  default is 0, meaning no periodic check",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.pool-size",
+      "type": "java.lang.Integer",
+      "description": "Size of the connection pool, default is 64",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.port",
+      "type": "java.lang.Integer",
+      "description": "Redis port",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.retry-attempts",
+      "type": "java.lang.Integer",
+      "description": "Number of retry attempts, default is 3",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    },
+    {
+      "name": "dynamic.thread.pool.config.retry-interval",
+      "type": "java.lang.Integer",
+      "description": "Interval between retries (in milliseconds), default is 1000",
+      "sourceType": "example.middleware.dynamicthreadpool.sdk.config.DynamicThreadPoolAutoProperties"
+    }
+  ],
+  "hints": []
+}

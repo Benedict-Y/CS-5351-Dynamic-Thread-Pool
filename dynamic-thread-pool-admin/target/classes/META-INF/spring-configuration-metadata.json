@@ -1,0 +1,78 @@
+{
+  "groups": [
+    {
+      "name": "redis.sdk.config",
+      "type": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "redis.sdk.config.connect-timeout",
+      "type": "java.lang.Integer",
+      "description": "Connection timeout in milliseconds, default is 10000",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.host",
+      "type": "java.lang.String",
+      "description": "host:ip",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.idle-timeout",
+      "type": "java.lang.Integer",
+      "description": "Maximum idle time for connections in milliseconds; idle connections exceeding this time will be closed. Default is 10000",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.keep-alive",
+      "type": "java.lang.Boolean",
+      "description": "Whether to keep connections alive; default is true",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.min-idle-size",
+      "type": "java.lang.Integer",
+      "description": "Minimum number of idle connections in the pool, default is 10",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.password",
+      "type": "java.lang.String",
+      "description": "Account password",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.ping-interval",
+      "type": "java.lang.Integer",
+      "description": "Interval for periodically checking connection availability (in milliseconds); default is 0, meaning no periodic check",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.pool-size",
+      "type": "java.lang.Integer",
+      "description": "Size of the connection pool, default is 64",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.port",
+      "type": "java.lang.Integer",
+      "description": "Port number",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.retry-attempts",
+      "type": "java.lang.Integer",
+      "description": "Number of retry attempts, default is 3",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    },
+    {
+      "name": "redis.sdk.config.retry-interval",
+      "type": "java.lang.Integer",
+      "description": "Interval between retries in milliseconds, default is 1000",
+      "sourceType": "example.middleware.dynamicthreadpool.Application$RedisClientConfigProperties"
+    }
+  ],
+  "hints": []
+}

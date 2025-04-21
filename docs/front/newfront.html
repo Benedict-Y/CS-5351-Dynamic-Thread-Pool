@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Thread Pool Monitor</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 50;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .modal-content {
+      background-color: #fff;
+      margin: 10% auto;
+      padding: 2rem;
+      border-radius: 1rem;
+      width: 90%;
+      max-width: 500px;
+    }
+    .close {
+      float: right;
+      font-size: 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+<div class="max-w-7xl mx-auto p-6">
+  <header class="mb-6">
+    <h1 class="text-3xl font-bold text-gray-800">Dynamic Thread Pool Monitor</h1>
+    <p class="text-gray-500">Real-time status of your application thread pools</p>
+  </header>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+    <div class="bg-white rounded-2xl shadow p-4">
+      <p class="text-gray-500 text-sm">Total Pools</p>
+      <p class="text-2xl font-semibold" id="totalPools">--</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-4">
+      <p class="text-gray-500 text-sm">Average Active Threads</p>
+      <p class="text-2xl font-semibold" id="avgActive">--</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-4">
+      <p class="text-gray-500 text-sm">Queued Tasks</p>
+      <p class="text-2xl font-semibold" id="totalQueued">--</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-4">
+      <p class="text-gray-500 text-sm">Last Updated</p>
+      <p class="text-2xl font-semibold" id="lastUpdate">--</p>
+    </div>
+  </div>
+
+  <div class="flex justify-between items-center mb-4">
+    <div class="space-x-2">
+      <button id="autoRefreshBtn" class="bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700">Auto Refresh</button>
+      <button id="stopAutoRefreshBtn" class="hidden bg-red-600 text-white px-4 py-2 rounded-xl hover:bg-red-700">Stop Refresh</button>
+    </div>
+  </div>
+
+  <div class="overflow-auto rounded-xl shadow">
+    <table class="min-w-full bg-white text-sm text-left">
+      <thead class="bg-gray-100 text-gray-600 uppercase text-xs">
+      <tr>
+        <th class="px-6 py-3">Application</th>
+        <th class="px-6 py-3">Thread Pool</th>
+        <th class="px-6 py-3">Core</th>
+        <th class="px-6 py-3">Max</th>
+        <th class="px-6 py-3">Active</th>
+        <th class="px-6 py-3">Pool Size</th>
+        <th class="px-6 py-3">Queue Type</th>
+        <th class="px-6 py-3">Queued</th>
+        <th class="px-6 py-3">Remaining</th>
+        <th class="px-6 py-3">Actions</th>
+      </tr>
+      </thead>
+      <tbody id="threadPoolList" class="text-gray-700 divide-y">
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mt-8">
+    <h2 class="text-xl font-semibold mb-2">Thread Pool Load Trend</h2>
+    <canvas id="exampleChart" height="100"></canvas>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+    <h2 class="text-xl font-bold mb-4">Thread Pool Configuration</h2>
+    <form id="configForm" class="space-y-4">
+      <div>
+        <label for="appName" class="block text-gray-600">Application Name:</label>
+        <input type="text" id="appName" name="appName" readonly class="w-full border rounded px-3 py-2 bg-gray-100">
+      </div>
+      <div>
+        <label for="threadPoolName" class="block text-gray-600">Thread Pool Name:</label>
+        <input type="text" id="threadPoolName" name="threadPoolName" readonly class="w-full border rounded px-3 py-2 bg-gray-100">
+      </div>
+      <div>
+        <label for="corePoolSize" class="block text-gray-600">Core Pool Size:</label>
+        <input type="number" id="corePoolSize" name="corePoolSize" class="w-full border rounded px-3 py-2">
+      </div>
+      <div>
+        <label for="maximumPoolSize" class="block text-gray-600">Maximum Pool Size:</label>
+        <input type="number" id="maximumPoolSize" name="maximumPoolSize" class="w-full border rounded px-3 py-2">
+      </div>
+      <button type="button" onclick="updateConfig()" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Confirm</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  let chart;
+  let threadHistory = [];
+
+  const ctx = document.getElementById('exampleChart');
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: [],
+      datasets: [{
+        label: 'Active Threads (first pool)',
+        data: [],
+        fill: false,
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.1
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          display: true
+        }
+      }
+    }
+  });
+
+
+  let autoRefreshInterval;
+  const loader = document.createElement('div');
+  const threadPoolList = document.getElementById('threadPoolList');
+
+  document.getElementById('autoRefreshBtn').onclick = () => {
+    if (!autoRefreshInterval) {
+      autoRefreshInterval = setInterval(fetchThreadPoolList, 3000);
+      document.getElementById('autoRefreshBtn').classList.add('hidden');
+      document.getElementById('stopAutoRefreshBtn').classList.remove('hidden');
+    }
+  };
+
+  document.getElementById('stopAutoRefreshBtn').onclick = () => {
+    if (autoRefreshInterval) {
+      clearInterval(autoRefreshInterval);
+      autoRefreshInterval = null;
+      document.getElementById('autoRefreshBtn').classList.remove('hidden');
+      document.getElementById('stopAutoRefreshBtn').classList.add('hidden');
+    }
+  };
+
+  function fetchThreadPoolList() {
+    fetch('http://localhost:8089/api/v1/dynamic/thread/pool/query_thread_pool_list')
+            .then(res => res.json())
+            .then(response => {
+              if (response.code === "0000" && Array.isArray(response.data)) {
+                let html = '';
+                let totalActive = 0;
+                let totalQueued = 0;
+                const firstPool = response.data[0];
+                if (firstPool) {
+                  threadHistory.push(firstPool.activeCount);
+                  if (threadHistory.length > 20) threadHistory.shift(); // 最多显示 20 条数据
+                  updateChart(threadHistory);
+                }
+
+                response.data.forEach(item => {
+                  totalActive += item.activeCount;
+                  totalQueued += item.queueSize;
+                  html += `<tr>
+                            <td class="px-6 py-4">${item.appName}</td>
+                            <td class="px-6 py-4">${item.threadPoolName}</td>
+                            <td class="px-6 py-4">${item.corePoolSize}</td>
+                            <td class="px-6 py-4">${item.maximumPoolSize}</td>
+                            <td class="px-6 py-4">${item.activeCount}</td>
+                            <td class="px-6 py-4">${item.poolSize}</td>
+                            <td class="px-6 py-4">${item.queueType}</td>
+                            <td class="px-6 py-4">${item.queueSize}</td>
+                            <td class="px-6 py-4">${item.remainingCapacity}</td>
+                            <td class="px-6 py-4"><button onclick="openModal('${item.appName}', '${item.threadPoolName}')" class="text-blue-600 hover:underline">Edit</button></td>
+                        </tr>`;
+                });
+                threadPoolList.innerHTML = html;
+                document.getElementById('totalPools').textContent = response.data.length;
+                document.getElementById('avgActive').textContent = Math.round(totalActive / response.data.length);
+                document.getElementById('totalQueued').textContent = totalQueued;
+                document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString();
+              }
+            })
+            .catch(err => console.error('Fetch error:', err));
+  }
+
+  function updateChart(data) {
+    if (chart) {
+      chart.data.labels = data.map((_, i) => i + 1);
+      chart.data.datasets[0].data = data;
+      chart.update();
+    }
+  }
+
+  function openModal(appName, threadPoolName) {
+    fetch(`http://localhost:8089/api/v1/dynamic/thread/pool/query_thread_pool_config?appName=${appName}&threadPoolName=${threadPoolName}`)
+            .then(res => res.json())
+            .then(response => {
+              if (response.code === "0000" && response.data) {
+                document.getElementById('appName').value = response.data.appName;
+                document.getElementById('threadPoolName').value = response.data.threadPoolName;
+                document.getElementById('corePoolSize').value = response.data.corePoolSize;
+                document.getElementById('maximumPoolSize').value = response.data.maximumPoolSize;
+                document.getElementById('myModal').style.display = 'block';
+              }
+            });
+  }
+
+  function updateConfig() {
+    const payload = {
+      appName: document.getElementById('appName').value,
+      threadPoolName: document.getElementById('threadPoolName').value,
+      corePoolSize: parseInt(document.getElementById('corePoolSize').value),
+      maximumPoolSize: parseInt(document.getElementById('maximumPoolSize').value)
+    };
+
+    fetch('http://localhost:8089/api/v1/dynamic/thread/pool/update_thread_pool_config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+            .then(res => res.json())
+            .then(response => {
+              if (response.code === "0000") {
+                alert('Configuration updated successfully!');
+                document.getElementById('myModal').style.display = 'none';
+                fetchThreadPoolList();
+              } else {
+                alert('Update failed: ' + response.info);
+              }
+            })
+            .catch(() => alert('Failed to update configuration!'));
+  }
+
+  fetchThreadPoolList();
+</script>
+</body>
+</html>
